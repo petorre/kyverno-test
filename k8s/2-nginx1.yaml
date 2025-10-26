@@ -1,0 +1,22 @@
+# Copyright (C) 2025 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+#
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx1
+  name: nginx1
+  namespace: kyverno-test
+spec:
+  containers:
+    - name: nginx1
+      image: nginx
+      resources:
+        requests:
+          cpu: 100m
+          memory: 50Mi
+        limits:
+          cpu: 100m
+          memory: 200Mi

@@ -1,0 +1,5 @@
+CLUSTER_POLICY_YAML="0-clusterpolicy.yaml"
+NS_YAML="1-ns.yaml"
+NGINX1_YAML="2-nginx1.yaml"
+NGINX2_YAML="3-nginx2.yaml"
+KA_NGINX_MD5="4ee786846ef2f6f6eb46cd313d2aa241"
